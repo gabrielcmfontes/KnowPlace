@@ -1,0 +1,52 @@
+.WhyCards {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    width: 89%;
+    padding: 2rem;
+    margin: 0 auto; /* Centraliza a seção no viewport */
+}
+
+.LeftCard, .RightCard, .BigCard {
+    margin-top: 120px;
+    display: flex; /* Adiciona flexbox para os cards */
+    flex-direction: column; /* Organiza o conteúdo em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente os itens */
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    text-align: center;
+}
+
+.LeftCard, .RightCard {
+    max-width: 500px;
+    min-width: 500px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.RightCard {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.BigCard {
+    height: 70vh;
+    font-size: 34px;
+    padding: 9rem;
+    border-radius: 20px;
+}
+
+.LeftCard, .RightCard p {
+    font-size: 30px;
+}
+
+.LeftCard, .RightCard h3 {
+    font-size: 30px;
+}
+
+/* Adiciona uma margem inferior ao h3 para separar do parágrafo */
+.LeftCard h3, .RightCard h3, .BigCard h3 {
+    margin-bottom: 1rem;
+}
