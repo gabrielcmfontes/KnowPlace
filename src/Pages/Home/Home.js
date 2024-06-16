@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import GuyUs from "../../img/uC.png";
 import StyledButton from "../../components/StyledButton/StyledButton";
 import WhyCards from "../../components/WhyCards/WhyCards";
+import AboutUs from "../../components/AboutUs/AboutUs";
 
 function Home() {
   return (
@@ -17,10 +18,13 @@ function Home() {
           </div>
           <div>
             <img src={GuyUs} alt="tmnc" />
+            
           </div>
         </section>
 
         <WhyCards />
+        
+        <AboutUs/>
       </Header>
 
       

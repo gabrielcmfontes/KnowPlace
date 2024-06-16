@@ -10,7 +10,7 @@
     align-items: center;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-    white-space: nowrap; /* Adicionado para evitar quebra de linha */
+    white-space: nowrap; 
 }
 
 .styledButton:hover {
