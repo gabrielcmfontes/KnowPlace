@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from './StyledButton.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLockOpen } from '@fortawesome/free-solid-svg-icons';
 
-const StyledButton = () => {
+const StyledButton = ({ children, backgroundColor }) => {
   return (
-    <button className={styles.styledButton}>
+    <button
+      className={`${styles.styledButton} ${styles[backgroundColor]}`}
+      style={{ backgroundColor }}
+    >
       <div className={styles.buttonContent}>
-        <FontAwesomeIcon icon={faLockOpen} />
-        Free Now
+        {children}
       </div>
     </button>
   );

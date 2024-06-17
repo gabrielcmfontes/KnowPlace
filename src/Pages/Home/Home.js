@@ -4,6 +4,8 @@ import GuyUs from "../../img/uC.png";
 import StyledButton from "../../components/StyledButton/StyledButton";
 import WhyCards from "../../components/WhyCards/WhyCards";
 import AboutUs from "../../components/AboutUs/AboutUs";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLockOpen } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
   return (
@@ -14,7 +16,10 @@ function Home() {
             <h2>
               Unlock Your Potential in Web Development! Explore Our Course Now!
             </h2>
-            <StyledButton />
+            <StyledButton>
+              <FontAwesomeIcon icon={faLockOpen} />
+              Free Now
+            </StyledButton>
           </div>
           <div>
             <img src={GuyUs} alt="tmnc" />

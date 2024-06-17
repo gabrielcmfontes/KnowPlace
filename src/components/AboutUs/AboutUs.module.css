@@ -5,6 +5,7 @@
     padding: 20vh 20vh;
     gap: 50px;
     font-family: "Montserrat", sans-serif;
+    color: #ffffff;
 }
 
 .About h2{
@@ -22,7 +23,7 @@
 }
 
 .About button{
-    padding: 10px 20px;
+    padding: 18px 40px;
     font-weight: 500;
     color: #ffffff;
     font-size: 20px;
@@ -31,4 +32,8 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+}
+
+.About button:hover{
+    background-color: #4d0f96;
 }
