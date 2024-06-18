@@ -1,11 +1,11 @@
 .About{
-    padding: 120px 0px;
     display: flex;
     align-items: center;
     padding: 20vh 20vh;
     gap: 50px;
     font-family: "Montserrat", sans-serif;
-    color: #ffffff;
+    color: #fff;
+    background-color: #1e4ef8;
 }
 
 .About h2{

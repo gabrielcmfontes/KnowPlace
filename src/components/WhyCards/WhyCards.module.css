@@ -1,17 +1,17 @@
 WhyCardsContainer {
-    position: relative; /* Establish stacking context */
-    display: flex; /* Flexbox for vertical centering */
-    justify-content: center; /* Center horizontally */
-    height: 100%; /* Match Header height */
+    position: relative;
+    display: flex; 
+    justify-content: center; 
+    height: 100%; 
     
   }
   
   .WhyCards {
-    display: flex; /* Flexbox for card layout */
+    display: flex; 
     max-width: 80%;
-    justify-content: center; /* Center cards horizontally */
-    align-items: center; /* Center cards vertically */
-    width: auto; /* Remove fixed width */
+    justify-content: center;
+    align-items: center; 
+    width: auto; 
     padding: 2rem;
     font-family: "Montserrat", sans-serif;
     margin: 0 auto;
@@ -66,7 +66,7 @@ WhyCardsContainer {
     margin-bottom: 1rem;
 }
 
-/* Media query para laptops */
+
 @media (max-width: 1440px) {
     .LeftCard, .RightCard {
         max-width: 400px;

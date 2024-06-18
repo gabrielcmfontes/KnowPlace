@@ -6,6 +6,8 @@ import WhyCards from "../../components/WhyCards/WhyCards";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLockOpen } from '@fortawesome/free-solid-svg-icons';
+import OurCompany from "../../components/OurCompany/OurCompany";
+import Contents from "../../components/Contents/Contents.";
 
 function Home() {
   return (
@@ -29,8 +31,15 @@ function Home() {
 
         <WhyCards />
         
-        <AboutUs/>
+        
       </Header>
+
+      <OurCompany/>
+
+      <AboutUs/>
+
+    
+      <Contents/>
 
       
     </section>
