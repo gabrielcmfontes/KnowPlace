@@ -4,10 +4,11 @@ import GuyUs from "../../img/uC.png";
 import StyledButton from "../../components/StyledButton/StyledButton";
 import WhyCards from "../../components/WhyCards/WhyCards";
 import AboutUs from "../../components/AboutUs/AboutUs";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLockOpen } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLockOpen } from "@fortawesome/free-solid-svg-icons";
 import OurCompany from "../../components/OurCompany/OurCompany";
 import Contents from "../../components/Contents/Contents.";
+import Recommendation from "../../components/Recommendation/recommendation";
 
 function Home() {
   return (
@@ -25,23 +26,19 @@ function Home() {
           </div>
           <div>
             <img src={GuyUs} alt="tmnc" />
-            
           </div>
         </section>
 
         <WhyCards />
-        
-        
       </Header>
 
-      <OurCompany/>
+      <OurCompany />
 
-      <AboutUs/>
+      <AboutUs />
 
-    
-      <Contents/>
-
+      <Contents />
       
+      <Recommendation />
     </section>
   );
 }

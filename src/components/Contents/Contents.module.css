@@ -16,7 +16,8 @@
 .StudyOur {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
+    padding-bottom: 60px;
 }
 
 .StudyOur div {
@@ -26,6 +27,12 @@
     max-width: 300px;
     text-align: center;
     min-height: 500px; 
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Adiciona transição suave */
+}
+
+.StudyOur div:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.2); /* Adiciona brilho ao passar o mouse */
+    transform: scale(1.05); /* Aumenta ligeiramente o cartão ao passar o mouse */
 }
 
 .StudyOur img {
