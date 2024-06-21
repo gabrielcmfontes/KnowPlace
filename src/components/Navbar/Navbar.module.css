@@ -13,6 +13,13 @@
     font-weight: 800;
 }
 
+.Navbar img{
+    padding-top: 5px;
+    width: 70px;
+    height: 60px;
+
+}
+
 .Navbar ul{
     display: flex;
 }

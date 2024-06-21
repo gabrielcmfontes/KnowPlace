@@ -12,7 +12,7 @@ WhyCardsContainer {
     justify-content: center;
     align-items: center; 
     width: auto; 
-    padding: 2rem;
+    padding: 4rem;
     font-family: "Montserrat", sans-serif;
     margin: 0 auto;
   }
@@ -50,8 +50,9 @@ WhyCardsContainer {
 
 .BigCard {
     z-index: 1000;
-    height: 60vh;
-    font-size: 34px;
+    max-height: 62vh;
+    min-height: 50vh;
+    font-size: 3vh;
     padding: 9rem;
     border-radius: 20px;
 }

@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import GuyUs from "../../img/uC.png";
 import StyledButton from "../../components/StyledButton/StyledButton";
 import WhyCards from "../../components/WhyCards/WhyCards";
+import Footer from "../../components/Footer/Footer";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLockOpen } from "@fortawesome/free-solid-svg-icons";
@@ -39,6 +40,8 @@ function Home() {
       <Contents />
       
       <Recommendation />
+
+      <Footer/>
     </section>
   );
 }

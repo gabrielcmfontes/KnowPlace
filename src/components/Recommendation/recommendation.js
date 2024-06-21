@@ -18,7 +18,7 @@ function Recommendation() {
         </p>
         <span className={styles.highlight}>Alexa Thompson</span>
       </div>
-      <div>
+      <div className={styles.RecoImage}>
         <img src={studentImg} alt="Student" />
       </div>
     </section>
